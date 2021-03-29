@@ -3,6 +3,7 @@ window.onload = fiximages => {
     username/project/branch/file 
     todo check actual gitlfs content instead
     no need to do this if local
+    todo cache imgs?
     */
     const LOCAL_DOMAINS = ["localhost", "127.0.0.1", "", "[::1]", "::1"];
     if (LOCAL_DOMAINS.includes(location.hostname)) {
