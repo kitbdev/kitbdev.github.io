@@ -3235,6 +3235,10 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 	}
+	#nav.darkmode {
+		background-color: #222222;
+		color: #d6d6d6;
+	}
 
 		#nav input, #nav select, #nav textarea {
 			color: #636363;
@@ -3345,6 +3349,10 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #636363;
 		border-radius: 0.25em;
+	}
+	#main.darkmode{
+		background-color: #222222;
+		color: #d6d6d6;
 	}
 
 		#main input, #main select, #main textarea {
